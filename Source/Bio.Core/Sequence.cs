@@ -314,7 +314,7 @@ namespace Bio
                 throw new ArgumentOutOfRangeException("start");
             }
 
-            if (start + length > this.Count)
+            if (start + length > this.Count - 1)
             {
                 throw new ArgumentOutOfRangeException("length");
             }
